@@ -846,197 +846,96 @@
       </section>
 
 
+<!-- form -->
+<section class="section shop" id="shop" aria-label="shop" style="background-image: url('./assets/images/shop-bg.jpg')">
+  <div class="container">
 
+    <h2 class="h2 section-title" id="register">
+      <span class="span" id="register">Register now</span>
+    </h2>
 
+    <!-- Form Start here -->
+    <section id="form_section" class="checkout-area pt-130 pb-130 event-list-margin">
+      <div class="container center-grid mb-100">
+        <div class="row g-4">
+          <div id="myForm" class="checkout__item-left sub-bg">
+            <div>
+              <h3 class="mb-40">Registration Form</h3>
 
-      <section class="section shop" id="shop" aria-label="shop"
-        style="background-image: url('./assets/images/shop-bg.jpg')">
-        <div class="container">
+              <input class="mb-20" id="Name" required type="text" placeholder="Enter your Name">
+              <input class="mb-20" id="Phone_NO" required type="tel" placeholder="Enter your Phone No">
 
-          <h2 class="h2 section-title" id="register">
-             <span class="span" id="register">Register now</span>
-          </h2>
+              <label for="classSelect">Class</label>
+              <select class="mb-20 btn-group size" id="classSelect" name="subject">
+                <option value="department1">Department 1</option>
+                <option value="department2">Department 2</option>
+                <option value="department3">Department 3</option>
+              </select>
 
-            <!-- 
-        Form checkbo
-            <section id="form_section" class="checkout-area pt-130 pb-130 event-list-margin">
-        <div class="container center-grid mb-100">
-            <div class="row g-4">
-                <div id="myForm" class="checkout__item-left sub-bg">
-                    <div>
-                        <h3 class="mb-40">Registration Form</h3>
-                        <input class="mb-20" id="Name" required type="text" placeholder="Enter your Name">
-                        <input class="mb-20" id="Phone_NO" required type="tel" placeholder="Enter your Phone No">
-                        
-                         Class
-                        <div>
-                          <select class="mb-20 btn-group size" name="subject">
-                              <option value="department1">Department 1</option>
-                              <option value="department2">Department 2</option>
-                              <option value="department3">Department 3</option>
-                          </select>
-                      </div>
+              <label for="events">Events</label>
+              <!-- Individual Events -->
+              <div class="checkout__item-left sub-bg main-grid-form">
+                <label>Individual Events</label>
 
-                    Events 
-                      <div class="checkout__item-left sub-bg main-grid-form">
-                          Individual Event
-                          <div class="form_border">
-                              <label class="mb-10" for="companyName">Individual Events</label>
-                              <div class="btn-wrp-form">
-                              NFS
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="NFS" value="NFS">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">NFS</div>
-                                  </div>
-
-                               E Football
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="EFootball" value="EFootball">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">E Football</div>
-                                  </div>
-
-                                  Poster Spoofing
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="PosterSpoofing" value="PosterSpoofing">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">Poster Spoofing</div>
-                                  </div>
-                              </div>
-                          </div>
-
-                       Group Event
-                          <div class="form_border">
-                              <label class="mb-10" for="companyName">Group Events</label>
-                              <div class="btn-wrp-form">
-                                Idea Presentation
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="IdeaPresentation" value="IdeaPresentation">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">Idea Presentation</div>
-                                  </div>
-
-                              Free Fire
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="FreeFire" value="FreeFire">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">Free Fire</div>
-                                  </div>
-
-                             BGMI 
-                                  <div class="form-row">
-                                      <div class="switch">
-                                          <input type="checkbox" id="BGMI" value="BGMI">
-                                          <label for="toggle">
-                                              <i class="bulb">
-                                                  <span class="bulbCenter"></span>
-                                                  <span class="filament1"></span>
-                                                  <span class="filament2"></span>
-                                                  <span class="reflections"><span></span></span>
-                                                  <span class="sparks">
-                                                      <i class="spark1"></i>
-                                                      <i class="spark2"></i>
-                                                      <i class="spark3"></i>
-                                                      <i class="spark4"></i>
-                                                  </span>
-                                              </i>
-                                          </label>
-                                      </div>
-                                      <div class="form-row">BGMI</div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                    Submit Button 
-                      <div class="submit-div">
-                          <button class="btn-one-light btn-size">
-                              <span>Submit</span>
-                          </button>
-                      </div>
+                <div class="form_border">
+                  <div class="form-row">
+                    <label for="NFS">NFS</label>
+                    <input type="checkbox" id="NFS" value="NFS">
                   </div>
+
+                  <div class="form-row">
+                    <label for="EFootball">E Football</label>
+                    <input type="checkbox" id="EFootball" value="EFootball">
+                  </div>
+
+                  <div class="form-row">
+                    <label for="PosterSpoofing">Poster Spoofing</label>
+                    <input type="checkbox" id="PosterSpoofing" value="PosterSpoofing">
+                  </div>
+                </div>
               </div>
+
+              <!-- Group Events -->
+              <div class="form_border">
+                <label>Group Events</label>
+
+                <div class="form-row">
+                  <label for="IdeaPresentation">Idea Presentation</label>
+                  <input type="checkbox" id="IdeaPresentation" value="IdeaPresentation">
+                </div>
+
+                <div class="form-row">
+                  <label for="FreeFire">Free Fire</label>
+                  <input type="checkbox" id="FreeFire" value="FreeFire">
+                </div>
+
+                <div class="form-row">
+                  <label for="BGMI">BGMI</label>
+                  <input type="checkbox" id="BGMI" value="BGMI">
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="submit-div">
+                <button class="btn-one-light btn-size">
+                  <span>Submit</span>
+                </button>
+              </div>
+
+            </div>
           </div>
+        </div>
       </div>
+    </section>
+  </div>
+</section>
+
+
+<!-- Form -->
+      </section>
   </section>
 
-    -->
+          <!-- Form ends here -->
           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
