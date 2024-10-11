@@ -1812,111 +1812,127 @@ body {
   }
 }
 
-/**
-/* General Input and Button Styles 
-.size {
-  color: white;
-  background-color: #191919;
+/* form cs by arden*/
+
+
+.containerwala {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.containerwala h2 {
+  text-align: center;
   margin-bottom: 20px;
-  width: 100%;
-  height: 50px;
-  font-size: 17px;
 }
 
-.span_color {
-  color: red;
-}
-
-/* Icon Section 
-.icons_row {
-  width: 100%;
+.containerwala .contact-info {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-}
-
-.icons_col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons_col input {
-  width: 15%;
-}
-
-.icons_col img {
-  width: 46px;
-  color: rebeccapurple;
-}
-
-/* Form Border and Layout
-.form_border {
-  padding: 10px;
-  border-style: solid;
-  border-color: #414141;
-  border-width: 1px;
-  border-radius: 10px;
-  max-width: 100%;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-  padding: 10px;
-  align-items: center;
-}
-
-.main-grid-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
-
-/* Button Layout
-.btn-wrp-form {
-  padding-top: 30px;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
 }
 
-/* Alignment Classes 
-.alignText {
+.containerwala .info-section {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.containerwala .info-section label {
   display: block;
+  margin-bottom: 10px;
 }
 
-.forEndBlock {
-  display: block;
-  text-align: center;
+.containerwala .info-section input, .containerwala .info-section select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.forEndFlex {
+.containerwala .events-list {
+  margin-bottom: 20px;
+}
+
+.containerwala .event-row {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.forEndFlex span {
-  margin-top: 3px;
-  width: 20px;
+.containerwala .form-border {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
   text-align: center;
+  margin: 10px;
 }
 
-/* Form Responsiveness 
-@media screen and (max-width: 768px) {
-  .form_border {
-      max-width: 100%;
+.containerwala .switch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.containerwala .bulb {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.containerwala .submit-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.containerwala .submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.containerwala .submit-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Add white background only up to the submit button */
+.containerwala form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  .containerwala {
+    max-width: 600px;
   }
-
-  .btn-wrp-form {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 10px;
+  .containerwala .info-section {
+    width: 100%;
   }
+  .containerwala .form-border {
+    width: 150px;
+  }
+}
 
-  .form
-  
-
+@media only screen and (max-width: 480px) {
+  .containerwala {
+    max-width: 400px;
+  }
+  .containerwala .info-section {
+    width: 100%;
+  }
+  .containerwala .form-border {
+    width: 100px;
+  }
+}
