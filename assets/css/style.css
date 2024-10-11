@@ -211,6 +211,7 @@ body {
   font-weight: var(--fw-700);
   min-height: 55px;
   padding-inline: 35px;
+  
 }
 
 .skewBg {
@@ -1161,6 +1162,12 @@ body {
   align-items: center;
  
 }
+
+
+.homer{
+  
+}
+
 
 /*-----------------------------------*\
   #BACK TO TOP
