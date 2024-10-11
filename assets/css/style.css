@@ -2959,6 +2959,7 @@ body {
 }
 #from {
   padding: 40px;
+  background-color: rgba(221, 210, 210, 0.8);
 }
 
 .events-list {
