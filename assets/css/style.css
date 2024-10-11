@@ -1725,6 +1725,28 @@ body {
 }
 }
 
+
+
+
+@media (max-width: 426px) {
+  #home, .sectionhero {
+    background-image: url('/assets/images/mp.jpg'); /* replace with your desired background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+@media (min-width: 427px) and (max-width: 2560px) {
+  .hero {
+    background-image: url('/assets/images/main_bg.jpg'); /* replace with your desired background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 /**
 /* General Input and Button Styles 
 .size {
