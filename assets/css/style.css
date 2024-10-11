@@ -1136,9 +1136,31 @@ body {
   color: var(--marigold);
 }
 
+@media (max-width: 768px) {
+  .foo {
+      font-size: 17px; /* Adjusted for tablet view */
+      
+  }
+}
 
+/* Responsive design for mobile devices (max-width 480px) */
+@media (max-width: 480px) {
+  .foo {
+      font-size: 15px; /* Adjusted for mobile view */
+      gap: 13px;
+  }
+}
 
-
+.developer {
+  white-space: nowrap; /* Ensures the text stays on one line */
+  text-align: center;  /* Centers the text */
+  font-size: 16px;     /* Adjust the font size if necessary */
+  color: #A0A0A0;      /* Text color */
+  display: inline;
+  text-align: center;
+  align-items: center;
+ 
+}
 
 /*-----------------------------------*\
   #BACK TO TOP
