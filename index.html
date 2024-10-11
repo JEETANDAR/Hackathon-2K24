@@ -965,14 +965,185 @@
           <h2 class="h2 section-title" id="register">
              <span class="span" id="register">Register now</span>
           </h2>
-
-            <!-- 
-        Form checkbo
+          <section class="section blog" id="from" aria-label="blog">
             <section id="form_section" class="checkout-area pt-130 pb-130 event-list-margin">
-        <div class="container center-grid mb-100">
-        -->
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+              <div class="container center-grid mb-100">
+                <div class="row g-4">
+                  <div id="myForm" class="checkout__item-left sub-bg">
+                    <form id="dataForm" name="contact-form">
+                      <div>
+                        <!-- Heading -->
+                        <div class="heading-from">
+                          <h3 class="mb-40">Registration Form</h3>
+                        </div>
+                        <!-- User name & Phone No -->
+                        <div class="contact-info">
+                          <div class="info-section">
+                            <label>Name: </label>
+                            <input class="mb-20" id="Name" name="name" required type="text" placeholder="Enter your Name">  
+                          </div>
+                          <div class="info-section">
+                            <label>Email: </label>
+                            <input class="mb-20" id="email_id" name="email_id" required type="email" placeholder="Enter your email">  
+                          </div>
+                          <div class="info-section">
+                            <label>Phone No: </label>
+                            <input class="mb-20" id="phone_no" name="phone_no" required type="tel" placeholder="Enter your Phone No">
+                          </div>
+                          <div class="info-section">
+                            <label for="classSelect">Class</label>
+                            <select class="mb-20 btn-group size" id="classSelect" name="class_name">
+                              <option value="1_BCA">1 BCA</option>
+                              <option value="2_BCA">2 BCA</option>
+                              <option value="3_BCA">3 BCA</option>
+                              <option value="1_BSC">1 BSC</option>
+                              <option value="2_BSC">2 BSC</option>
+                              <option value="3_BSC">3 BSC</option>
+                              <option value="1_BBA">1 BBA</option>
+                              <option value="2_BBA">2 BBA</option>
+                              <option value="3_BBA">3 BBA</option>
+                              <option value="1_BA">1 BA</option>
+                              <option value="2_BA">2 BA</option>
+                              <option value="3_BA">3 BA</option>
+                              <option value="1_BCOM">1 BCOM</option>
+                              <option value="2_BCOM">2 BCOM</option>
+                              <option value="3_BCOM">3 BCOM</option>
+                              <option value="1_MA">1 MA</option>
+                              <option value="2_MA">2 MA</option>
+                              <option value="1_MSC">1 MSC</option>
+                              <option value="2_MSC">2 MSC</option>
+                            </select>
+                          </div>
+                        </div>
+          
+                        <!-- Individual Events -->
+                        <div>
+                          <h2>Events</h2>
+                          <div class="checkout__item-left sub-bg main-grid-form">
+                            <h4>Individual Events</h4>
+                          </div>
+                          <div class="events-list">
+                            <div class="event-row">
+                              <!-- NFS -->
+                              <div class="form_border">
+                                <div class="form-row">
+                                  <div class="switch">
+                                    <input type="checkbox" id="nfs" name="nfs" value="NFS"></input>
+                                    <label htmlFor="toggle">
+                                      <i class="bulb"></i>
+                                    </label>
+                                  </div>
+                                </div>
+                                <div>NFS</div>
+                              </div>
+            
+                              <!-- PES -->
+                              <div class="form_border">
+                                <div class="form-row">
+                                  <div class="switch">
+                                    <input type="checkbox" id="pes" name="pes" value="PES"></input>
+                                    <label htmlFor="toggle">
+                                      <i class="bulb"></i>
+                                    </label>
+                                  </div>
+                                </div>
+                                <div>PES</div>
+                              </div>
+            
+                              <!-- Halo -->
+                              <div class="form_border">
+                                <div class="form-row">
+                                  <div class="switch">
+                                    <input type="checkbox" id="halo" name="halo" value="Halo"></input>
+                                    <label htmlFor="toggle">
+                                      <i class="bulb"></i>
+                                    </label>
+                                  </div>
+                                </div>
+                                <div>Halo</div>
+                              </div>
+                            </div>
+                          </div>
+          
+                          <!-- Group Events -->
+                          <div class="checkout__item-left sub-bg main-grid-form">
+                            <h4>Group Events</h4>
+                            <div class="events-list">
+                              <div class="event-row">
+                                <!-- BGMI -->
+                                <div class="form_border">
+                                  <div class="form-row">
+                                    <div class="switch">
+                                      <input type="checkbox" id="bgmi" name="bgmi" value="BGMI"></input>
+                                      <label htmlFor="toggle">
+                                        <i class="bulb"></i>
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div>BGMI</div>
+                                </div>
+            
+                                <!-- Free Fire -->
+                                <div class="form_border">
+                                  <div class="form-row">
+                                    <div class="switch">
+                                      <input type="checkbox" id="free_fire" name="free_fire" value="Free Fire"></input>
+                                      <label htmlFor="toggle">
+                                        <i class="bulb"></i>
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div>Free Fire</div>
+                                </div>
+            
+                                <!-- Idea Presentation -->
+                                <div class="form_border">
+                                  <div class="form-row">
+                                    <div class="switch">
+                                      <input type="checkbox" id="idea_presentation" name="idea_presentation" value="Idea Presentation"></input>
+                                      <label htmlFor="toggle">
+                                        <i class="bulb"></i>
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="ppt">Idea Presentation</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+          
+                        <!-- Submit Button -->
+                        <div class="submit-div">
+                          <div class="wrapper">
+                            <button class="sbbtn" type="submit">
+                              <input type="submit" value="Submit" id="submit">
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
 
 
 
@@ -982,7 +1153,7 @@
       
    
 
-
+<br><br>
 
 
    
