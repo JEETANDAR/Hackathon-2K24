@@ -1747,6 +1747,42 @@ body {
   }
 }
 
+
+.pro {
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  .pro {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+  }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pro {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1024px) {
+  .pro {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+  }
+}
+
 /**
 /* General Input and Button Styles 
 .size {
