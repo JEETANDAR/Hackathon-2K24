@@ -3210,3 +3210,12 @@ body{
     font-size: 20px;
   }
 }
+.tt{
+  text-align: center;
+}
+.std{
+  gap: 40%;
+}
+*{
+  margin: 0;
+}
