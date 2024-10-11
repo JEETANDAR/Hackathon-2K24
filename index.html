@@ -847,87 +847,294 @@
 
 
 <!-- form -->
-<section class="section shop" id="shop" aria-label="shop" style="background-image: url('./assets/images/shop-bg.jpg')">
-  <div class="container">
-
-    <h2 class="h2 section-title" id="register">
-      <span class="span" id="register">Register now</span>
-    </h2>
-
-    <!-- Form Start here -->
-    <section id="form_section" class="checkout-area pt-130 pb-130 event-list-margin">
-      <div class="container center-grid mb-100">
-        <div class="row g-4">
-          <div id="myForm" class="checkout__item-left sub-bg">
-            <div>
-              <h3 class="mb-40">Registration Form</h3>
-
-              <input class="mb-20" id="Name" required type="text" placeholder="Enter your Name">
+<section class="section blog" id="from" aria-label="blog">
+<section id="form_section" class="checkout-area pt-130 pb-130 event-list-margin">
+  <div class="container center-grid mb-100">
+    <div class="row g-4">
+      <div id="myForm" class="checkout__item-left sub-bg">
+        <div>
+          <!-- Heading -->
+          <div class="heading-from">
+            <h3 class="mb-40">Registration Form</h3>
+          </div>
+          <!-- User name & Phone No -->
+          <div class="contact-info">
+            <div class="info-section">
+              <label>Name: </label>
+              <input class="mb-20" id="Name" required type="text" placeholder="Enter your Name">  
+            </div>
+            <div class="info-section">
+              <label>Phone No: </label>
               <input class="mb-20" id="Phone_NO" required type="tel" placeholder="Enter your Phone No">
+            </div>
 
+
+            <div class="info-section">
               <label for="classSelect">Class</label>
               <select class="mb-20 btn-group size" id="classSelect" name="subject">
-                <option value="department1">Department 1</option>
-                <option value="department2">Department 2</option>
-                <option value="department3">Department 3</option>
+                <option value="1_BCA">1 BCA</option>
+                <option value="2_BCA">2 BCA</option>
+                <option value="3_BCA">3 BCA</option>
+                <option value="1_BSC">1 BSC</option>
+                <option value="2_BSC">2 BSC</option>
+                <option value="3_BSC">3 BSC</option>
+                <option value="1_BBA">1 BBA</option>
+                <option value="2_BBA">2 BBA</option>
+                <option value="3_BBA">3 BBA</option>
+                <option value="1_BA">1 BA</option>
+                <option value="2_BA">2 BA</option>
+                <option value="3_BA">3 BA</option>
+                <option value="1_BCOM">1 BCOM</option>
+                <option value="2_BCOM">2 BCOM</option>
+                <option value="3_BCOM">3 BCOM</option>
+                <option value="1_MA">1 MA</option>
+                <option value="2_MA">2 MA</option>
+                <option value="1_MSC">1 MSC</option>
+                <option value="2_MSC">2 MSC</option>
               </select>
+            </div>
+          </div>
 
-              <label for="events">Events</label>
+          <!-- Individual Events -->
+            <div>                
+              <h2 for="events">Events</h2>
               <!-- Individual Events -->
               <div class="checkout__item-left sub-bg main-grid-form">
-                <label>Individual Events</label>
-
+                <h4>Individual Events</h4>
+              </div>
+              <div class="events-list">
+              <div class="event-row">              
+                <!-- NFS -->
                 <div class="form_border">
                   <div class="form-row">
-                    <label for="NFS">NFS</label>
-                    <input type="checkbox" id="NFS" value="NFS">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
                   </div>
-
+                  <div>NFS</div>
+                </div>
+              
+                <!-- PES -->
+                <div class="form_border">
                   <div class="form-row">
-                    <label for="EFootball">E Football</label>
-                    <input type="checkbox" id="EFootball" value="EFootball">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
                   </div>
-
+                  <div>PES 25</div>
+                </div>
+              
+                <!-- Halo -->
+                <div class="form_border">
                   <div class="form-row">
-                    <label for="PosterSpoofing">Poster Spoofing</label>
-                    <input type="checkbox" id="PosterSpoofing" value="PosterSpoofing">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
                   </div>
+                  <div>Halo</div>
+                </div>
+            </div>
+          
+            <!-- Group Events -->
+            <div>                
+              <div class="checkout__item-left sub-bg main-grid-form">
+                <h4>Group Events</h4>
+              <div class="event-row">
+              
+                <!-- BGMI -->
+                <div class="form_border">
+                  <div class="form-row">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
+                  </div>
+                  <div>BGMI</div>
+                </div>
+              
+                <!-- Free Fire -->
+                <div class="form_border">
+                  <div class="form-row">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
+                  </div>
+                  <div>Free Fire</div>
+                </div>
+              
+                <!-- Idea Presentation -->
+                <div class="form_border">
+                  <div class="form-row">
+                    <div class="switch">
+                      <input
+                        type="checkbox"
+                        id="NFS"
+                        value="NFS"
+                        onChange= // Functioin name
+                      ></input>
+                      <label htmlFor="toggle">
+                        <i class="bulb">
+                          <span class="bulbCenter"></span>
+                          <span class="filament1"></span>
+                          <span class="filament2"></span>
+                          <span class="reflections">
+                            <span></span>
+                          </span>
+                          <span class="sparks">
+                            <i class= "spark1"></i>
+                            <i class= "spark2"></i>
+                            <i class= "spark3"></i>
+                            <i class= "spark4"></i>
+                          </span>
+                        </i>
+                      </label>
+                    </div>
+                  </div>
+                  <div>Idea Presentation</div>
                 </div>
               </div>
-
-              <!-- Group Events -->
-              <div class="form_border">
-                <label>Group Events</label>
-
-                <div class="form-row">
-                  <label for="IdeaPresentation">Idea Presentation</label>
-                  <input type="checkbox" id="IdeaPresentation" value="IdeaPresentation">
-                </div>
-
-                <div class="form-row">
-                  <label for="FreeFire">Free Fire</label>
-                  <input type="checkbox" id="FreeFire" value="FreeFire">
-                </div>
-
-                <div class="form-row">
-                  <label for="BGMI">BGMI</label>
-                  <input type="checkbox" id="BGMI" value="BGMI">
-                </div>
-              </div>
-
-              <!-- Submit Button -->
-              <div class="submit-div">
-                <button class="btn-one-light btn-size">
-                  <span>Submit</span>
-                </button>
-              </div>
-
             </div>
           </div>
         </div>
+
+
+          <!-- Submit Button -->
+          <div class="submit-div">
+            <!-- Button Script -->
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+                let btn = document.querySelector(".submit-btn");
+                btn.addEventListener("click", function() {
+                  btn.classList.toggle("is_active");
+                });
+              });
+            </script>
+            <!-- Button script end -->
+          
+            <div class="wrapper">
+              <button class="submit-btn">
+                <span>Submit</span>
+                <div class="success">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+                    <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173
+                    c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752
+                    c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        </div>
       </div>
-    </section>
+    </div>
   </div>
+</section>
 </section>
 
 
