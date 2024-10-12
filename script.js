@@ -1,3 +1,7 @@
+// Loding the video quickly
+let promoVid = document.getElementById('promoVideo');
+promoVid.preload = 'auto';
+
 document.addEventListener('DOMContentLoaded', () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyIY51xXM_U_sDn-kwpPYQr1cPbE0b0aScv3ErpYixShxKU5asaU23X5trzBaYkvP-cqQ/exec';  // Replace with your script URL
     const form = document.forms['contact-form'];  // Ensure the form name matches
