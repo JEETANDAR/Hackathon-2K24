@@ -3241,6 +3241,12 @@ body{
     font-size: 14px;
     gap: 10%;
   }
+  #fcd{
+    margin-left: -40px;
+  }
+  #stc{
+    margin-left: 50px;
+  }
   #fc{
   margin-right: 10%;
 }
