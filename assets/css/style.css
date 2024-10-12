@@ -3244,6 +3244,9 @@ body{
   #fc{
   margin-right: 10%;
 }
+.dev, .developer{
+  font-size: 15px;
+}
 }
 @media screen and (min-width: 376px) and (max-width: 426px){
   .foo{
