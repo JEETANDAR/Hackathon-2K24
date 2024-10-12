@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyIY51xXM_U_sDn-kwpPYQr1cPbE0b0aScv3ErpYixShxKU5asaU23X5trzBaYkvP-cqQ/exec';  // Replace with your script URL
     const form = document.forms['contact-form'];  // Ensure the form name matches
-    
-    
+
+
     form.addEventListener('submit', e => {
         e.preventDefault();
 
@@ -31,7 +31,7 @@ function submitEvent() {
     let messageOutput = document.getElementById('SubmitMessage');
 
     // making all the inputs read only
-    const ele_ID = ['Name','email_id', 'phone_no', 'classSelect', 'nfs', 'pes', 'halo', 'bgmi', 'free_fire', 'idea_presentation'];
+    const ele_ID = ['Name', 'email_id', 'phone_no', 'classSelect', 'nfs', 'pes', 'halo', 'bgmi', 'free_fire', 'idea_presentation'];
     ele_ID.forEach(ele => {
         document.getElementById(ele).readOnly = true;
     });
