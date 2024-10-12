@@ -3024,7 +3024,7 @@ body {
 }
 #from {
   padding: 40px;
-  background-color: rgba(221, 210, 210, 0.8);
+  background-color: rgba(233,164,1,255);
 }
 
 .events-list {
@@ -3218,4 +3218,45 @@ body{
 }
 *{
   margin: 0;
+}
+.purple, .live-match
+{
+  background-color: #201c24
+}
+#pr{
+  margin-top: 10%;
+}
+.developer {
+  white-space: nowrap; /* Ensures the text stays on one line */
+  text-align: center;  /* Centers the text */
+  font-size: 16px;     /* Adjust the font size if necessary */
+  color: #A0A0A0;      /* Text color */
+  display: inline;
+  text-align: center;
+  align-items: center;
+ 
+}
+@media screen and (min-width: 320px) and (max-width: 376px){
+  .foo{
+    font-size: 14px;
+    gap: 10%;
+  }
+  #fc{
+  margin-right: 10%;
+}
+}
+@media screen and (min-width: 376px) and (max-width: 426px){
+  .foo{
+    font-size: 20px;
+    gap: 10%;
+  }
+}
+.contact {
+  border: 1px solid #ccc; /* add a 1px solid border with a light gray color */
+  border-radius: 5px; /* add a slight rounded corner effect */
+  padding: 20px; /* add some padding to create space between the border and the content */
+}
+.textreg{
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
